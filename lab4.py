@@ -11,3 +11,15 @@ ips.append('1.1.1.2')
 ips.append('1.1.1.3')
 ips.pop(2)
 print (ips)
+
+# Lab 5:
+
+bank = {'idan':30000, 'yossi':25000, 'ori':12}
+sum =  (bank['idan'] + bank['ori'])
+bank['yair'] = sum
+print(len(bank.items()))
+if 'idan' in bank:
+    print('idan is here')
+
+
+
